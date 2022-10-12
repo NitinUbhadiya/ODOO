@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Expenses -->
+    <menuitem
+        id="nk_expenses_menu"
+        name="Expenses"
+        sequence="1"/>
+
+    <!-- Expenses -->
+    <menuitem
+        id="nk_expenses_expenses_menu"
+        name="Expenses"
+        sequence="1"
+        parent="nk_expenses_menu"
+        action="nk_expenses.nk_expenses_action"/>
+
+    <!-- Expense Type -->
+    <menuitem
+        id="nk_expenses_expense_type"
+        name="Expese Type"
+        sequence="2"
+        parent="nk_expenses_menu"
+        action="nk_expenses.nk_expense_type_action"
+    />
+
+</odoo>

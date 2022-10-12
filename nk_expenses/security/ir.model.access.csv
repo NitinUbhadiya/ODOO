@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+nk_expenses.access_nk_expenses,access_nk_expenses,nk_expenses.model_nk_expenses,base.group_user,1,1,1,1
+nk_expenses.access_nk_expense_line,access_nk_expense_line,nk_expenses.model_nk_expense_line,base.group_user,1,1,1,1
+nk_expenses.access_nk_expense_type,access_nk_expense_type,nk_expenses.model_nk_expense_type,base.group_user,1,1,1,1
